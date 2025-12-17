@@ -1,0 +1,17 @@
+/* 
+Theme Name: Fictional University
+author: Bmpa
+version:1.0.1
+*/
+body: {
+  background-color: black;
+}
+
+h1 {
+  color: red;
+}
+
+h1 a {
+  list-style: none;
+  text-decoration: none;
+}
