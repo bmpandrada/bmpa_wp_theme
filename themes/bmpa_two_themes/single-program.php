@@ -44,13 +44,19 @@ while (have_posts()) {
     if ($relatedProfessor->have_posts()) {
       echo '<hr class="section-break">';
       echo '<h2 class="headline headline--medium"> ' . get_the_title() . ' Professors</h2>';
-
+      echo '<ul class="professor-cards">';
       while ($relatedProfessor->have_posts()) {
         $relatedProfessor->the_post(); ?>
 
-        <li><a href="<?php the_permalink() ?>"><?php the_title() ?></a></li>
+        <li class="professor-card__list-item">
+          <a class="professor-card" href="<?php the_permalink() ?>">
+            <img class="professor-card__image" src="<?php the_post_thumbnail_url() ?>">
+            <span class="professor-card__name"><?php the_title(); ?></span>
+          </a>
+        </li>
 
       <?php }
+      echo '</ul>';
     }
 
 
@@ -112,7 +118,6 @@ while (have_posts()) {
     wp_reset_postdata()
     ?>
   </div>
-
 
 <?php }
 get_footer(); ?>
