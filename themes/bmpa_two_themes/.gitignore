@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+
+# src modules (kung ayaw mo ring i-push)
+src/modules/
+
+# build output (optional)
+dist/
+build/
+
+# env files
+.env
+.env.local
+
+# OS junk
+.DS_Store
+Thumbs.db

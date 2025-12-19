@@ -41,7 +41,6 @@ get_header(); ?>
       <?php
       while ($homepageEvents->have_posts()) {
         $homepageEvents->the_post();
-
         get_template_part('template-parts/content', 'event');
       }
       wp_reset_postdata()
@@ -66,7 +65,7 @@ get_header(); ?>
       <?php
       while ($homepagePosts->have_posts()) {
         $homepagePosts->the_post();
-        get_template_part('/template-parts/content', 'blog');
+        get_template_part('template-parts/content', 'blog');
       }
       wp_reset_postdata()
 
