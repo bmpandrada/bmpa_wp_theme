@@ -1,0 +1,6 @@
+Dec 19 2025 09:44:36
+{"Number":2,"Message":"rmdir(C:\\laragon\\www\\bmpa-two-themes\\wp-content\\plugins\\all-in-one-wp-migration\\storage\\rwx2vh8zuvyq): Directory not empty","File":"C:\\laragon\\www\\bmpa-two-themes\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\filesystem\\class-ai1wm-directory.php","Line":74}
+
+Dec 19 2025 09:44:37
+{"Number":2,"Message":"filesize(): stat failed for C:\\laragon\\www\\bmpa-two-themes\\wp-content\\plugins\\all-in-one-wp-migration\\storage\\rwx2vh8zuvyq\\bmpa-two-themes-test-20251219-094057-93x3fcf9u3aw.wpress","File":"C:\\laragon\\www\\bmpa-two-themes\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-archiver.php","Line":233}
+
